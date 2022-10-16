@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: url(image/points.png), center url(image/jump-start.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0 25px;
+    padding: 0 15px;
+    transition: .3s;
+}
+
+.nav a:hover{
+    font-weight: bold;
+}
+
+.nav p, .links{
+    margin: 0 10%;
+}
+
+.mainInfo{
+    margin: 40vh 150px;
+    font-size: large;
+}
